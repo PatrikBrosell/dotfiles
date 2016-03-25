@@ -1,0 +1,11 @@
+# Java package files
+*.jar
+*.war
+*.ear
+
+# Executables 
+*.exe
+*.out
+
+# Object files
+*.o
