@@ -1,0 +1,11 @@
+[user]
+	name = Patrik Brosell
+	email = patrikbrosell@gmail.com
+
+[github]
+	user = PatrikBrosell 
+
+[core]
+	autocrlf = input
+	editor = vim
+	excludesfile = ~/.gitignore_global
