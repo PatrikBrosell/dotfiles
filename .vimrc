@@ -15,7 +15,7 @@ filetype plugin indent on
 " A tab is 8 columns, this changes how exsisting text displays.
 " A tab that is read is 8 columns.
 set tabstop=8
-" A tab is 8 when hitting tab in insert mode.
+" A tab is 8 columns when hitting tab in insert mode.
 " A tab that is written is 8 columns.
 set softtabstop=8
 " A tab is 8 columns when reindenting using >> and <<.
@@ -35,13 +35,13 @@ set background=dark
 "set cindent
 
 
-" For C
+" For C: Highlight trailing spaces (also applies to cpp)
 let c_space_errors = 1
 
-" For python
+" For python: Highlight trailing spaces
 let python_space_errors = 1
 
-" For java
+" For java: Highlight trailing spaces
 let java_space_errors = 1
 
 
