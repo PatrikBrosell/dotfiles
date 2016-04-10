@@ -3,10 +3,10 @@
 "
 
 
-noremap <Left> :echo "No!"<cr>
-noremap <Right> :echo "No!"<cr>
-noremap <Up> :echo "No!"<cr>
-noremap <Down> :echo "No!"<cr>
+"noremap <Left> :echo "No!"<cr>
+"noremap <Right> :echo "No!"<cr>
+"noremap <Up> :echo "No!"<cr>
+"noremap <Down> :echo "No!"<cr>
 
 syntax on
 "filetype on
