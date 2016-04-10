@@ -2,6 +2,8 @@
 " stuff
 "
 
+" Show line numbers
+set number
 
 "noremap <Left> :echo "No!"<cr>
 "noremap <Right> :echo "No!"<cr>
