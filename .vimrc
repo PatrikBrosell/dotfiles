@@ -1,3 +1,15 @@
+" Set path to pathogen
+runtime bundle/vim-pathogen/autoload/pathogen.vim
+
+execute pathogen#helptags()
+
+" Add bundle name to this list to disable it
+let g:pathogen_disabled = []
+
+" Run pathogen
+execute pathogen#infect()
+
+
 " Todo:
 " stuff
 "

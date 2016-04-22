@@ -1,8 +1,11 @@
 #!/bin/bash
 
+git submodule init
+git submodule update
+
 dir=~/dotfiles
 backup=~/dotfiles_backup
-files=".vimrc .gitconfig .gitignore_global"
+files=".vim .vimrc .gitconfig .gitignore_global"
 
 echo -n "Creating $backup for backup of any existing dotfiles in ~ ... "
 mkdir -p $backup
