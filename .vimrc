@@ -49,9 +49,6 @@ set background=dark
 "set cindent
 
 
-" For C: Highlight trailing spaces (also applies to cpp)
-let c_space_errors = 1
-
 " For python: Highlight trailing spaces
 let python_space_errors = 1
 
