@@ -49,9 +49,6 @@ set background=dark
 "set cindent
 
 
-" For python: Highlight trailing spaces
-let python_space_errors = 1
-
 " For java: Highlight trailing spaces
 let java_space_errors = 1
 
