@@ -9,7 +9,6 @@ let g:pathogen_disabled = []
 " Run pathogen
 execute pathogen#infect()
 
-
 " Todo:
 " stuff
 "
@@ -23,7 +22,6 @@ set number
 "noremap <Down> :echo "No!"<cr>
 
 syntax on
-"filetype on
 filetype plugin indent on
 
 " A tab is 8 columns, this changes how exsisting text displays.
@@ -42,17 +40,3 @@ set colorcolumn=80
 highligh ColorColumn ctermbg=blue
 "Using dark terminal background - make text brighter
 set background=dark
-
-
-"filetype plugin indent on
-"set autoindent
-"set cindent
-
-
-
-
-
-"call plug#begin()
-"Plug 'tpope/vim-sensible'
-"call plug#end()
-
